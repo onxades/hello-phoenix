@@ -1,12 +1,12 @@
-<section>
-  <div class="bg-gray-100 m-4 p-8 rounded text-center text-lg">
+<div class="grid grid-cols-1">
+  <div class="col-span-1 bg-gray-100 m-4 p-8 rounded text-center text-lg">
     <h1 class="text-xl font-bold"><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
     <p>Peace of mind from prototype to production</p>
   </div>
-</section>
+</div>
 
-<section class="row grid grid-cols-2 gap-2 place-content-center h-48">
-  <article class="m-8">
+<div class="grid grid-cols-2 place-items-center items-start">
+  <div>
     <h2 class="font-bold text-xl">Resources</h2>
     <ul class="list-disc text-blue-500">
       <li>
@@ -19,8 +19,8 @@
         <a href="https://github.com/phoenixframework/phoenix/blob/v1.6/CHANGELOG.md">v1.6 Changelog</a>
       </li>
     </ul>
-  </article>
-  <article class="m-8">
+  </div>
+  <div>
     <h2 class="font-bold text-xl">Help</h2>
     <ul class="list-disc text-blue-500">
       <li>
@@ -39,5 +39,5 @@
         <a href="https://discord.gg/elixir">Elixir on Discord</a>
       </li>
     </ul>
-  </article>
-</section>
+  </div>
+</div>
